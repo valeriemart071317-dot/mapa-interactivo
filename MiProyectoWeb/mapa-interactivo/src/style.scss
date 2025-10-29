@@ -1,0 +1,100 @@
+/* Configuración Base */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  background-color: #b6b6b6; /* Fondo suave */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* 1. ENCABEZADO */
+header {
+  background-color: #b6b6b6; /* Color primario: Azul */
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+/* 2. SECCIÓN HÉROE */
+.hero {
+  background-color: #e3e7e9; /* Un azul muy claro */
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  color: #232e3c;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #4f5d69; /* Color secundario: Verde */
+  color: white;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 5px;
+  margin-top: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.boton:hover {
+  background-color: #b6b6b6;
+}
+
+/* 3. CARACTERÍSTICAS */
+.features {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features h3 {
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block; /* Las pone en fila */
+  width: 28%; /* Ocupan un tercio del espacio */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 4. PIE DE PÁGINA */
+footer {
+  background-color: #878f92;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
+/* Estilos para el Logo */
+.logo-container img {
+  height: 180px; /* Define una altura para el logo */
+  width: auto; /* Mantiene la proporción automáticamente */
+  /* Asegura que el logo no sea afectado por el estilo de texto anterior */
+  display: block;
+}
+
+/* Opcional: Centra verticalmente el logo y los enlaces */
+header {
+  /* (Asegúrate de que estas propiedades ya existen en tu CSS del encabezado) */
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Esto es clave para la alineación vertical */
+}
